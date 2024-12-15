@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -169,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -254,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -280,6 +280,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj"
+              },
               "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj": {
                 "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj"
               }
@@ -327,7 +330,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     }
