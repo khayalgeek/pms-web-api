@@ -1,0 +1,1 @@
+2024-12-15 18:26:54.2663 INFO Get all projects 

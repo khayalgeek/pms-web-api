@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS", "PMS\PMS.csproj", "{18D6E9CE-9496-470C-8FAA-5D722BDDBF17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F4D52FBC-0F41-4092-9A11-2956EC6FB465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{CD6BFF7B-93AF-4158-8959-61AD1B6E717D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{E965AA2E-F869-4BBB-85C3-FA5AACFF963C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{18D6E9CE-9496-470C-8FAA-5D722BDDBF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D6E9CE-9496-470C-8FAA-5D722BDDBF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D6E9CE-9496-470C-8FAA-5D722BDDBF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D52FBC-0F41-4092-9A11-2956EC6FB465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D52FBC-0F41-4092-9A11-2956EC6FB465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D52FBC-0F41-4092-9A11-2956EC6FB465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D52FBC-0F41-4092-9A11-2956EC6FB465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6BFF7B-93AF-4158-8959-61AD1B6E717D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6BFF7B-93AF-4158-8959-61AD1B6E717D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6BFF7B-93AF-4158-8959-61AD1B6E717D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6BFF7B-93AF-4158-8959-61AD1B6E717D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E965AA2E-F869-4BBB-85C3-FA5AACFF963C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E965AA2E-F869-4BBB-85C3-FA5AACFF963C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E965AA2E-F869-4BBB-85C3-FA5AACFF963C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E965AA2E-F869-4BBB-85C3-FA5AACFF963C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

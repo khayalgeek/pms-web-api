@@ -4,14 +4,14 @@
     "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj": {}
   },
   "projects": {
-    "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj": {
+    "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj",
-        "projectName": "PMS",
-        "projectPath": "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj",
+        "projectUniqueName": "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj",
         "packagesPath": "/Users/xayalbinnatov/.nuget/packages/",
-        "outputPath": "/Users/xayalbinnatov/Desktop/PMS/PMS/obj/",
+        "outputPath": "/Users/xayalbinnatov/Desktop/PMS/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xayalbinnatov/.nuget/NuGet/NuGet.Config"
@@ -37,7 +37,190 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj",
+        "packagesPath": "/Users/xayalbinnatov/.nuget/packages/",
+        "outputPath": "/Users/xayalbinnatov/Desktop/PMS/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/xayalbinnatov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/xayalbinnatov/Desktop/PMS/LoggerService/LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/xayalbinnatov/Desktop/PMS/LoggerService/LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "/Users/xayalbinnatov/Desktop/PMS/LoggerService/LoggerService.csproj",
+        "packagesPath": "/Users/xayalbinnatov/.nuget/packages/",
+        "outputPath": "/Users/xayalbinnatov/Desktop/PMS/LoggerService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/xayalbinnatov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/xayalbinnatov/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj",
+        "projectName": "PMS",
+        "projectPath": "/Users/xayalbinnatov/Desktop/PMS/PMS/PMS.csproj",
+        "packagesPath": "/Users/xayalbinnatov/.nuget/packages/",
+        "outputPath": "/Users/xayalbinnatov/Desktop/PMS/PMS/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/xayalbinnatov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Contracts/Contracts.csproj"
+              },
+              "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj": {
+                "projectPath": "/Users/xayalbinnatov/Desktop/PMS/Entities/Entities.csproj"
+              },
+              "/Users/xayalbinnatov/Desktop/PMS/LoggerService/LoggerService.csproj": {
+                "projectPath": "/Users/xayalbinnatov/Desktop/PMS/LoggerService/LoggerService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
