@@ -58,3 +58,9 @@ Properties
 
 # NUnit
 nunit-*.xml
+
+# .NET SDK avtomatik generasiya edilmiş fayllar
+RuntimeIdentifierGraph.json
+
+# User-specific project references
+*.csproj.user
